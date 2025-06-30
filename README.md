@@ -34,13 +34,10 @@ Crafted with ✨ pixel precision and packed with personality, this is my digital
 # 1. Clone the repository
 git clone https://github.com/Akshat-Raii/portfolio.git
 
-# 2. Go into the directory
-cd portfolio
-
-# 3. Install dependencies
+# 2. Install dependencies
 npm install
 
-# 4. Run the development server
+# 3. Run the development server
 npm run dev
 ```
 ---

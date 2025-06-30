@@ -40,7 +40,7 @@ export default function Portfolio() {
         "High accuracy disease detection",
         "User-friendly Streamlit interface",
       ],
-      github: "https://github.com/Akshat-Raii/DriverSentinel",
+      github: "https://github.com/Akshat-Raii/PlantShield",
     },
     {
       title: "BuddyMind",
@@ -53,7 +53,7 @@ export default function Portfolio() {
         "Supports Hindi and English with smooth switching",
         "Clearly defined mental health scope and friendly UI/UX",
       ],
-      github: "https://github.com/yourusername/BuddyMind",
+      github: "https://github.com/Akshat-Raii/BuddyMind",
     },
     {
       title: "Chat Analyzer",
@@ -94,7 +94,7 @@ export default function Portfolio() {
         "30% reduced data entry time",
         "Low-light environment compatibility",
       ],
-      github: "https://github.com/Akshat-Raii/BrushSplash",
+      github: "https://github.com/Akshat-Raii/Attendance-Automation-using-Face-Detection",
     },
   ]
 

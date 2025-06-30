@@ -12,7 +12,7 @@ import { Input } from "@/components/ui/input"
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState("home")
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const { scrollYProgress } = useScroll()
+  // const { scrollYProgress } = useScroll()
 
   const projects = [
     {

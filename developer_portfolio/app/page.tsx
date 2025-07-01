@@ -46,7 +46,7 @@ export default function Portfolio() {
       title: "BuddyMind",
       period: "April 2025 - May 2025",
       description:"Empathetic mental health chatbot powered by Google's Gemini API, designed to converse with a comforting, structured tone—just like me.",
-      technologies: ["Streamlit", "Google Gemini API", "Python", "dotenv", "LLM", "Mental Health AI"],
+      technologies: ["Streamlit", "Google Gemini API", "Python", "LLM"],
       achievements: [
         "Mimics my conversational style to offer personalized empathy",
         "Structured JSON-based chat with emotionally intelligent responses",

@@ -3,7 +3,7 @@
 🎨 Welcome to my interactive, manga-style portfolio – where **creativity meets code**!  
 Crafted with ✨ pixel precision and packed with personality, this is my digital playground to showcase what I do best.
 
-🌐 **Live Demo**: [See Portfolio Here](https://akshat-raii.github.io/portfolio)
+🌐 **Live Demo**: [See Portfolio Here](https://therealakshat.vercel.app/)
 
 ---
 

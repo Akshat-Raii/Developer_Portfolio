@@ -16,6 +16,34 @@ export default function Portfolio() {
 
   const projects = [
     {
+      title: "HireBench",
+      period: "Jun 2025 - Aug 2025",
+      description:
+        "AI-powered interview practice platform. Create customized interviews, get instant AI-driven feedback, and track your progress.",
+      technologies: ["Next.js", "TypeScript", "PostgreSQL", "Gemini API", "Drizzle ORM","NeonDB","Tailwind CSS"],
+      achievements: [
+        "Tailored interview simulation by job role and tech stack",
+        "Instant, detailed AI feedback on performance",
+        "Comprehensive interview history tracking",
+        "Integrated speech-to-text for realistic practice",
+      ],
+      github: "https://github.com/Akshat-Raii/HireBench",
+    },
+    {
+      title: "FinHive",
+      period: "Feb 2025 - Apr 2025",
+      description:
+        "AI-powered personal finance platform to track expenses, manage budgets, and receive intelligent insights for financial goals.",
+      technologies: ["Next.js", "TypeScript", "PostgreSQL", "Gemini API", "Drizzle ORM","NeonDB","Tailwind CSS"],
+      achievements: [
+        "AI-powered personalized financial advice",
+        "Seamless income and expense tracking",
+        "Smart, category-based budgeting",
+        "Interactive dashboards for financial visualization",
+      ],
+      github: "https://github.com/Akshat-Raii/FinHive",
+    },
+    {
       title: "Driver Sentinel",
       period: "Oct 2024 - Jan 2025",
       description:
@@ -45,7 +73,8 @@ export default function Portfolio() {
     {
       title: "BuddyMind",
       period: "April 2025 - May 2025",
-      description:"Empathetic mental health chatbot powered by Google's Gemini API, designed to converse with a comforting, structured tone—just like me.",
+      description:
+        "Empathetic mental health chatbot powered by Google's Gemini API, designed to converse with a comforting, structured tone—just like me.",
       technologies: ["Streamlit", "Google Gemini API", "Python", "LLM"],
       achievements: [
         "Mimics my conversational style to offer personalized empathy",
@@ -99,17 +128,23 @@ export default function Portfolio() {
   ]
 
   const skills = {
-    languages: ["C", "C++", "Java", "Python", "JavaScript", "HTML", "CSS", "BashScript"],
+    languages: ["C", "C++", "Java", "Python", "JavaScript", "TypeScript", "HTML", "CSS", "BashScript"],
     technologies: [
       "Frontend Development",
-      "DSA",
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "shadcn/ui",
       "Machine Learning",
       "Deep Learning",
       "Generative AI",
+      "LangChain",
+      "DSA",
+      "SQL",
+      "PostgreSQL",
+      "Neon",
       "Git",
       "GitHub",
-      "LangChain",
-      "SQL",
       "Linux",
     ],
   }
@@ -299,7 +334,7 @@ export default function Portfolio() {
               animate={{ scale: [1, 1.2, 1] }}
               transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY }}
             >
-              ⚡
+              ★
             </motion.div>
           </div>
         </div>
@@ -343,23 +378,20 @@ export default function Portfolio() {
                 </h3>
                 <div className="space-y-3 sm:space-y-4">
                   <a href="/Akshat_Resume.pdf" download target="_blank" rel="noopener noreferrer">
-                      <Button
-                        className="w-full bg-black text-white border-2 sm:border-4 border-black font-black text-sm sm:text-lg py-3 sm:py-4 transform -skew-x-6 hover:skew-x-0 transition-transform shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]"
-                      >
-                        <Download className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-                        DOWNLOAD RESUME
-                      </Button>
+                    <Button className="w-full bg-black text-white border-2 sm:border-4 border-black font-black text-sm sm:text-lg py-3 sm:py-4 transform -skew-x-6 hover:skew-x-0 transition-transform shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                      <Download className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
+                      DOWNLOAD RESUME
+                    </Button>
                   </a>
                   <a href="https://www.linkedin.com/in/akshat-raii" target="_blank" rel="noopener noreferrer">
-                  <Button
-                    variant="outline"
-                    className="w-full border-2 sm:border-4 border-black bg-white text-black font-black text-sm sm:text-lg py-3 sm:py-4 transform skew-x-6 hover:-skew-x-0 transition-transform shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]"
-                  >
-                    <Linkedin className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-                    LINKEDIN PROFILE
-                  </Button>
+                    <Button
+                      variant="outline"
+                      className="w-full border-2 sm:border-4 border-black bg-white text-black font-black text-sm sm:text-lg py-3 sm:py-4 transform skew-x-6 hover:-skew-x-0 transition-transform shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]"
+                    >
+                      <Linkedin className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
+                      LINKEDIN PROFILE
+                    </Button>
                   </a>
-
                 </div>
               </div>
             </div>
@@ -384,7 +416,9 @@ export default function Portfolio() {
                   initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8, delay: index * 0.1 }}
-                  className={`border-2 sm:border-4 border-black bg-white p-4 sm:p-6 transform ${index % 2 === 0 ? "rotate-1" : "-rotate-1"} shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] sm:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all`}
+                  className={`border-2 sm:border-4 border-black bg-white p-4 sm:p-6 transform ${
+                    index % 2 === 0 ? "rotate-1" : "-rotate-1"
+                  } shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] sm:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all`}
                 >
                   <div className="flex flex-col sm:flex-row justify-between items-start mb-4 gap-3">
                     <div className="flex-1">
@@ -479,7 +513,7 @@ export default function Portfolio() {
               <div className="border-2 sm:border-4 border-black bg-white p-4 sm:p-8 transform -rotate-2 shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] sm:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]">
                 <h3 className="text-2xl sm:text-3xl font-black mb-4 sm:mb-6 flex items-center">
                   <Brain className="mr-2 sm:mr-3 h-6 w-6 sm:h-8 sm:w-8" />
-                  TECH STACK
+                  TECH STACK & TOOLS
                 </h3>
                 <div className="flex flex-wrap gap-2 sm:gap-3">
                   {skills.technologies.map((tech) => (

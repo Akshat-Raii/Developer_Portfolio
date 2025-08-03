@@ -130,7 +130,7 @@ export default function Portfolio() {
   const skills = {
     languages: ["C", "C++", "Java", "Python", "JavaScript", "TypeScript", "HTML", "CSS", "BashScript"],
     technologies: [
-      "Frontend Development",
+      "FullStack Development",
       "Next.js",
       "React",
       "Tailwind CSS",
@@ -142,7 +142,6 @@ export default function Portfolio() {
       "DSA",
       "SQL",
       "PostgreSQL",
-      "Neon",
       "Git",
       "GitHub",
       "Linux",
